@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{fc5911e1-d5ba-4da3-9cfa-5631c6914487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\simulation\elements">
+      <UniqueIdentifier>{f7a41603-0b7e-46ad-bc8f-9bd65b416bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\game">
+      <UniqueIdentifier>{21d7dd96-0bf3-4f37-9e0c-23eb0b760502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resampler">
+      <UniqueIdentifier>{b3f7950d-beb1-49bd-86eb-f87e10add300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\font">
+      <UniqueIdentifier>{121f2cb8-2ffa-43fa-b355-8d6d25ca2a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\preview">
+      <UniqueIdentifier>{c53fb6be-b4a1-4eaf-868f-72b0f2f2381a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\colourpicker">
+      <UniqueIdentifier>{84e65e6e-09fc-4c9f-935e-fecabd2829e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tasks">
+      <UniqueIdentifier>{bf5f06c3-db93-4fc3-8ec2-d3cce0db56ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\profile">
+      <UniqueIdentifier>{dc343cce-9989-421b-8aa6-4c924cca5221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client\http">
+      <UniqueIdentifier>{840d64d3-c707-4690-bb7c-51befcd2ccde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\render">
+      <UniqueIdentifier>{cbeaeda9-7006-4a53-8e62-e8b8986d7c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\elementsearch">
+      <UniqueIdentifier>{4d26ca36-59fb-442b-9be0-f48f26c8dcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{93a03e87-b180-4301-a6f9-6091c5939885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\localbrowser">
+      <UniqueIdentifier>{dbffd108-9b4a-4cf8-a94f-f65ef46150a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\save">
+      <UniqueIdentifier>{f7cb1020-81e3-4d7f-8629-19ccaa2032bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\login">
+      <UniqueIdentifier>{8ee04d84-1be6-4360-9816-7d560512c176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\dialogues">
+      <UniqueIdentifier>{e767c73e-5795-480f-a869-c21eed9109bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\socket">
+      <UniqueIdentifier>{53c850c8-3c80-479f-bde5-19689eee242d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{f079f092-6da4-4637-8c14-0bff31ff1664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\interface">
+      <UniqueIdentifier>{cda0811c-024b-48f9-89d7-547ce7c9a1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{6a7397b5-a28d-40be-9129-d475046a7c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{ad1f7f49-6afe-4859-83e6-057467e3b949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\simulation">
+      <UniqueIdentifier>{69e4b466-26a1-425e-a4df-4c5a969c5768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\filebrowser">
+      <UniqueIdentifier>{139ebace-b208-4157-afca-e031debc7b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c07da372-222a-46b4-90c8-53d855e177a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\update">
+      <UniqueIdentifier>{956b5e9e-426a-4ae2-9d13-2e8a217143ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\options">
+      <UniqueIdentifier>{d63c72bd-9138-4393-9025-d99b77c4ce82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\debug">
+      <UniqueIdentifier>{5ee8afef-8c47-4367-9fdb-23aed4d12e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\console">
+      <UniqueIdentifier>{f1f776c6-3c4d-44ca-be04-207c9264dd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{0a06d88e-7b90-4d36-9e8b-c9db2fe93561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{88ee2499-2819-452a-a0c8-d55deab3810f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\powdertoyjava">
+      <UniqueIdentifier>{6a47d3c4-31c2-4ca3-81b4-237d285384b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\tags">
+      <UniqueIdentifier>{4c0eb3ed-6eaf-4796-8535-2a4b0235e0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bson">
+      <UniqueIdentifier>{f3ae0ce9-ace9-4bea-9b49-b46a982bcc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\luascripts">
+      <UniqueIdentifier>{a0a50139-ad50-4091-bc78-4ffd74dafb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\search">
+      <UniqueIdentifier>{18479730-fa4b-48c4-87c6-b25b2e490a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\simulation\simtools">
+      <UniqueIdentifier>{9eb56775-779f-45c1-b774-3076b576a7a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Format.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PowderToyRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PowderToySDL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Probability.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLCompat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Update.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bson\BSON.cpp">
+      <Filter>src\bson</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\Client.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\GameSave.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\MD5.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\SaveFile.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\SaveInfo.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\ThumbnailRendererTask.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\APIRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\AvatarRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\GetUserInfoRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\ImageRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\Request.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\RequestManager.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\SaveUserInfoRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\client\http\ThumbnailRequest.cpp">
+      <Filter>src\client\http</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\String.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\tpt-rand.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\DebugLines.cpp">
+      <Filter>src\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\DebugParts.cpp">
+      <Filter>src\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\ElementPopulation.cpp">
+      <Filter>src\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug\ParticleDebug.cpp">
+      <Filter>src\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Graphics.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\OpenGLGraphics.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\RasterGraphics.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\Renderer.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Style.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\colourpicker\ColourPickerActivity.cpp">
+      <Filter>src\gui\colourpicker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\console\ConsoleController.cpp">
+      <Filter>src\gui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\console\ConsoleModel.cpp">
+      <Filter>src\gui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\console\ConsoleView.cpp">
+      <Filter>src\gui\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogues\ConfirmPrompt.cpp">
+      <Filter>src\gui\dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogues\ErrorMessage.cpp">
+      <Filter>src\gui\dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogues\InformationMessage.cpp">
+      <Filter>src\gui\dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogues\SaveIDMessage.cpp">
+      <Filter>src\gui\dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogues\TextPrompt.cpp">
+      <Filter>src\gui\dialogues</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\elementsearch\ElementSearchActivity.cpp">
+      <Filter>src\gui\elementsearch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\filebrowser\FileBrowserActivity.cpp">
+      <Filter>src\gui\filebrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\font\FontEditor.cpp">
+      <Filter>src\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\BitmapBrush.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\Brush.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\DecorationTool.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\Favorite.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\GameController.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\GameModel.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\GameView.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\Menu.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\PropertyTool.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\QuickOptions.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\SampleTool.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\SignTool.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\Tool.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\game\ToolButton.cpp">
+      <Filter>src\gui\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Appearance.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\AvatarButton.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Button.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Checkbox.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Component.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\ContextMenu.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\CopyTextButton.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\DropDown.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Engine.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Label.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Panel.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\ProgressBar.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\RichLabel.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\SaveButton.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\ScrollPanel.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Slider.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Spinner.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Textbox.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\TextWrapper.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\interface\Window.cpp">
+      <Filter>src\gui\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\localbrowser\LocalBrowserController.cpp">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\localbrowser\LocalBrowserModel.cpp">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\localbrowser\LocalBrowserView.cpp">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\login\LoginController.cpp">
+      <Filter>src\gui\login</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\login\LoginModel.cpp">
+      <Filter>src\gui\login</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\login\LoginView.cpp">
+      <Filter>src\gui\login</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\options\OptionsController.cpp">
+      <Filter>src\gui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\options\OptionsModel.cpp">
+      <Filter>src\gui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\options\OptionsView.cpp">
+      <Filter>src\gui\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\preview\PreviewController.cpp">
+      <Filter>src\gui\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\preview\PreviewModel.cpp">
+      <Filter>src\gui\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\preview\PreviewView.cpp">
+      <Filter>src\gui\preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\profile\ProfileActivity.cpp">
+      <Filter>src\gui\profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\render\RenderController.cpp">
+      <Filter>src\gui\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\render\RenderModel.cpp">
+      <Filter>src\gui\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\render\RenderView.cpp">
+      <Filter>src\gui\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\save\LocalSaveActivity.cpp">
+      <Filter>src\gui\save</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\save\ServerSaveActivity.cpp">
+      <Filter>src\gui\save</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\search\SearchController.cpp">
+      <Filter>src\gui\search</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\search\SearchModel.cpp">
+      <Filter>src\gui\search</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\search\SearchView.cpp">
+      <Filter>src\gui\search</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\tags\TagsController.cpp">
+      <Filter>src\gui\tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\tags\TagsModel.cpp">
+      <Filter>src\gui\tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\tags\TagsView.cpp">
+      <Filter>src\gui\tags</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\update\UpdateActivity.cpp">
+      <Filter>src\gui\update</Filter>
+    </ClCompile>
+    <ClCompile Include="src\json\jsoncpp.cpp">
+      <Filter>src\json</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\CommandInterface.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LegacyLuaAPI.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaBit.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaButton.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaCheckbox.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaCompat.c">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaComponent.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaEvents.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaLabel.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaProgressBar.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaScriptInterface.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaSlider.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaSmartRef.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaTextbox.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\LuaWindow.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\TPTScriptInterface.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\TPTSTypes.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\luascripts\eventcompat.lua.cpp">
+      <Filter>src\lua\luascripts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\auxiliar.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\buffer.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\except.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\inet.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\io.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\luasocket.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\options.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\select.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\socket.lua.cpp">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\tcp.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\timeout.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\udp.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\unix.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\usocket.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\socket\wsocket.c">
+      <Filter>src\lua\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="src\powdertoyjava\OpenGLCanvasWin32.cpp">
+      <Filter>src\powdertoyjava</Filter>
+    </ClCompile>
+    <ClCompile Include="src\powdertoyjava\PowderToyJava.cpp">
+      <Filter>src\powdertoyjava</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resampler\resampler.cpp">
+      <Filter>src\resampler</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Air.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\CyensTools.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Element.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\ElementClasses.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Gravity.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Particle.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\SaveRenderer.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Sign.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\SimTool.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\Simulation.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\SimulationData.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\ToolClasses.cpp">
+      <Filter>src\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ACEL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ACET.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ACID.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ACTA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ALCL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\AMID.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\AMIN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\AMTR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ANAR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ANFO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ARAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BANG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BCLN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BCOL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BGLA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BHOL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BIZR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BIZRG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BIZRS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BMTL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BOMB.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BOYL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BRAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BRCK.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BREC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BRMT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BTRY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\BVBR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\C5.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CAUS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CBNL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CBNW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CBXL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CCL2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CFLM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CLCO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CLNE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CLST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CNCT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CO2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\COAL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CONV.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CRAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CRBN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CRMC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\CYAN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\D2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DCEL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DESL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DEST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DEUT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DLAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DMG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DMND.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DNA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DRAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DRIC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DSTW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DTEC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DUST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\DYST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\E116.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\E146.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ELEC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\EMBR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\EMP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ETRD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\EXOT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FIGH.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FILT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FIRE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FIRW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FMLD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FOG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FRAY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FRMD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FRME.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FRZW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FRZZ.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FSEP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FUSE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\FWRK.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GAMA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GAS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GBMB.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GCBN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GEL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GLAS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GLOW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GLUON.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GOLD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GOO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GPMP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GRAV.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GRVT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GSLC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\GUNP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\H2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HDZN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HE3.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HEAC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HELI.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HNO3.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HSWC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\HXDE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ICEI.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\IGNT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\INSL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\INST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\INVIS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\INWR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\IRON.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ISCY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ISOZ.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\ISZS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LAVA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LCRY.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LDTC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LIFE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LIGH.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LNTG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LO2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LOLZ.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LOVE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LRBD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LSCN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\LSNS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\MERC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\METL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\MORT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\MWAX.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\N2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NBHL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NBLE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NCTD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NEUT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NH3.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NICE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NITR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NONE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NSCN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NTCT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\NWHL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\O2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\OIL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\OXIM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PBCN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PCLN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PHAC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PHOS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PHOT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PHPT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PIPE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PLEX.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PLNT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PLSM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PLUT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\POLO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PPIP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PQRT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PRFN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PROT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PRTI.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PRTO.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PSCN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PSNS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PSTE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PSTN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PSTS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PTCT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PUMP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\PVOD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\QARK.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\QRTZ.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RBAC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RBDM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RFGL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RFRG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RIME.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RNA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\RPEL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SALT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SAND.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SAWD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SDHX.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SDNT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SDUM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SHLD1.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SHLD2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SHLD3.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SHLD4.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SING.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SLCN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SLTW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SMKE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SNOW.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SOAP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SPAWN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SPAWN2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SPNG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SPRK.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\STKM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\STKM2.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\STNE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\STOR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SUGR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\SWCH.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TESC.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\THDR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\THRM.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TRIT.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TRON.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TSNS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TTAN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\TUNG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\UNTR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\URAN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\UREA.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VIBR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VINE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VIRS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VNGR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VOID.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VRSG.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\VRSS.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WARP.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WATR.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WAX.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WBSN.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WHOL.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WIFI.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WIRE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WOOD.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WSTE.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\WTRV.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\YEST.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\AIR.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\COOL.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\CYCL.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\HEAT.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\MIX.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\NGRV.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\PGRV.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\simtools\VAC.cpp">
+      <Filter>src\simulation\simtools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tasks\AbandonableTask.cpp">
+      <Filter>src\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tasks\Task.cpp">
+      <Filter>src\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tasks\TaskWindow.cpp">
+      <Filter>src\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="data\font.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="data\hmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="data\icon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="data\images.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data\font.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\hmap.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\icon.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\icondoc.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\images.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\IntroText.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\Shaders.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Activity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controller.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Format.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Misc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PowderToy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Probability.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLCompat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SDLMain.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Update.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bson\BSON.h">
+      <Filter>src\bson</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\Client.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ClientListener.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\GameSave.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\MD5.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\SaveFile.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\SaveInfo.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\ThumbnailRendererTask.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\User.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\UserInfo.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\APIRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\AvatarRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\GetUserInfoRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\ImageRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\Request.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\RequestManager.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\RequestMonitor.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\SaveUserInfoRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\client\http\ThumbnailRequest.h">
+      <Filter>src\client\http</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Format.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Singleton.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\String.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\tpt-compat.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\tpt-inline.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\tpt-minmax.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\tpt-rand.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\DebugInfo.h">
+      <Filter>src\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\DebugLines.h">
+      <Filter>src\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\DebugParts.h">
+      <Filter>src\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\ElementPopulation.h">
+      <Filter>src\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug\ParticleDebug.h">
+      <Filter>src\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\FontReader.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Graphics.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Icons.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\OpenGLHeaders.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Pixel.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\Renderer.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\Style.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\colourpicker\ColourPickerActivity.h">
+      <Filter>src\gui\colourpicker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\console\ConsoleCommand.h">
+      <Filter>src\gui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\console\ConsoleController.h">
+      <Filter>src\gui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\console\ConsoleModel.h">
+      <Filter>src\gui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\console\ConsoleView.h">
+      <Filter>src\gui\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\ConfirmPrompt.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\ErrorMessage.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\InformationMessage.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\LegacyDialogues.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\SaveIDMessage.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogues\TextPrompt.h">
+      <Filter>src\gui\dialogues</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\elementsearch\ElementSearchActivity.h">
+      <Filter>src\gui\elementsearch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\filebrowser\FileBrowserActivity.h">
+      <Filter>src\gui\filebrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\font\FontEditor.h">
+      <Filter>src\gui\font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\BitmapBrush.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\Brush.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\DecorationTool.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\EllipseBrush.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\Favorite.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\GameController.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\GameModel.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\GameModelException.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\GameView.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\Menu.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\MenuButton.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\Notification.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\QuickOption.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\QuickOptions.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\RenderPreset.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\Tool.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\ToolButton.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\game\TriangleBrush.h">
+      <Filter>src\gui\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Appearance.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\AvatarButton.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Border.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Button.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Checkbox.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Colour.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Component.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\ContextMenu.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\CopyTextButton.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\DropDown.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Engine.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Keys.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Label.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Mouse.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Panel.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Point.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\ProgressBar.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\RichLabel.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\SaveButton.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\ScrollPanel.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Slider.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Spinner.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Textbox.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\TextWrapper.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\interface\Window.h">
+      <Filter>src\gui\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\localbrowser\LocalBrowserController.h">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\localbrowser\LocalBrowserModel.h">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\localbrowser\LocalBrowserModelException.h">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\localbrowser\LocalBrowserView.h">
+      <Filter>src\gui\localbrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\login\LoginController.h">
+      <Filter>src\gui\login</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\login\LoginModel.h">
+      <Filter>src\gui\login</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\login\LoginView.h">
+      <Filter>src\gui\login</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\options\OptionsController.h">
+      <Filter>src\gui\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\options\OptionsModel.h">
+      <Filter>src\gui\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\options\OptionsView.h">
+      <Filter>src\gui\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\preview\Comment.h">
+      <Filter>src\gui\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\preview\PreviewController.h">
+      <Filter>src\gui\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\preview\PreviewModel.h">
+      <Filter>src\gui\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\preview\PreviewModelException.h">
+      <Filter>src\gui\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\preview\PreviewView.h">
+      <Filter>src\gui\preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\profile\ProfileActivity.h">
+      <Filter>src\gui\profile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\render\RenderController.h">
+      <Filter>src\gui\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\render\RenderModel.h">
+      <Filter>src\gui\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\render\RenderView.h">
+      <Filter>src\gui\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\save\LocalSaveActivity.h">
+      <Filter>src\gui\save</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\save\ServerSaveActivity.h">
+      <Filter>src\gui\save</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\search\SearchController.h">
+      <Filter>src\gui\search</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\search\SearchModel.h">
+      <Filter>src\gui\search</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\search\SearchView.h">
+      <Filter>src\gui\search</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\tags\TagsController.h">
+      <Filter>src\gui\tags</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\tags\TagsModel.h">
+      <Filter>src\gui\tags</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\tags\TagsModelException.h">
+      <Filter>src\gui\tags</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\tags\TagsView.h">
+      <Filter>src\gui\tags</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\update\UpdateActivity.h">
+      <Filter>src\gui\update</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\json-forwards.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\json.h">
+      <Filter>src\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\CommandInterface.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaBit.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaButton.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaCheckbox.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaCompat.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaComponent.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaEvents.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaLabel.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaLuna.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaProgressBar.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaScriptHelper.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaScriptInterface.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaSlider.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaSmartRef.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaTextbox.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\LuaWindow.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\TPTScriptInterface.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\TPTSTypes.h">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\auxiliar.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\buffer.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\except.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\inet.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\io.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\luasocket.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\options.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\select.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\socket.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\socket.lua.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\tcp.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\timeout.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\udp.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\unix.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\usocket.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\socket\wsocket.h">
+      <Filter>src\lua\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\powdertoyjava\OpenGLCanvasMacOS.h">
+      <Filter>src\powdertoyjava</Filter>
+    </ClInclude>
+    <ClInclude Include="src\powdertoyjava\OpenGLCanvasWin32.h">
+      <Filter>src\powdertoyjava</Filter>
+    </ClInclude>
+    <ClInclude Include="src\powdertoyjava\PowderToyJava.h">
+      <Filter>src\powdertoyjava</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resampler\resampler.h">
+      <Filter>src\resampler</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Air.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\CoordStack.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\CyensTools.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Element.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ElementClasses.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ElementCommon.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ElementDefs.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ElementGraphics.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ElementNumbers.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\GOLMenu.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Gravity.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\MenuSection.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Particle.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Sample.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\SaveRenderer.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Sign.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\SimTool.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Simulation.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\SimulationData.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Snapshot.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\Stickman.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\StorageClasses.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\StructProperty.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ToolClasses.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ToolCommon.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\ToolNumbers.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simulation\WallType.h">
+      <Filter>src\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tasks\AbandonableTask.h">
+      <Filter>src\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tasks\Task.h">
+      <Filter>src\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tasks\TaskListener.h">
+      <Filter>src\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tasks\TaskWindow.h">
+      <Filter>src\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\powder-res.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\graphics\DrawMethodsDef.inc">
+      <Filter>src\graphics</Filter>
+    </None>
+    <None Include="src\graphics\OpenGLDrawMethods.inl">
+      <Filter>src\graphics</Filter>
+    </None>
+    <None Include="src\graphics\RasterDrawMethods.inl">
+      <Filter>src\graphics</Filter>
+    </None>
+    <None Include="vsproject.py" />
+    <None Include="SConstruct" />
+    <None Include="SConscript" />
+    <None Include="README.md" />
+    <None Include="src\SDLMain.m" />
+    <None Include="src\lua\socket\socket.lua">
+      <Filter>src\lua\socket</Filter>
+    </None>
+  </ItemGroup>
+</Project>
