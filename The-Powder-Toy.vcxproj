@@ -509,6 +509,7 @@
     <ClCompile Include="src\simulation\elements\UNTR.cpp" />
     <ClCompile Include="src\simulation\elements\URAN.cpp" />
     <ClCompile Include="src\simulation\elements\UREA.cpp" />
+    <ClCompile Include="src\simulation\elements\UV.cpp" />
     <ClCompile Include="src\simulation\elements\VIBR.cpp" />
     <ClCompile Include="src\simulation\elements\VINE.cpp" />
     <ClCompile Include="src\simulation\elements\VIRS.cpp" />
@@ -526,6 +527,7 @@
     <ClCompile Include="src\simulation\elements\WOOD.cpp" />
     <ClCompile Include="src\simulation\elements\WSTE.cpp" />
     <ClCompile Include="src\simulation\elements\WTRV.cpp" />
+    <ClCompile Include="src\simulation\elements\XRAY.cpp" />
     <ClCompile Include="src\simulation\elements\YEST.cpp" />
     <ClCompile Include="src\simulation\simtools\AIR.cpp" />
     <ClCompile Include="src\simulation\simtools\COOL.cpp" />

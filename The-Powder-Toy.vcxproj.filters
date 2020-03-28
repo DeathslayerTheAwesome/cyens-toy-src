@@ -12,113 +12,113 @@
     <Filter Include="data">
       <UniqueIdentifier>{fc5911e1-d5ba-4da3-9cfa-5631c6914487}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\simulation\elements">
-      <UniqueIdentifier>{f7a41603-0b7e-46ad-bc8f-9bd65b416bba}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\game">
-      <UniqueIdentifier>{21d7dd96-0bf3-4f37-9e0c-23eb0b760502}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\resampler">
-      <UniqueIdentifier>{b3f7950d-beb1-49bd-86eb-f87e10add300}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\font">
-      <UniqueIdentifier>{121f2cb8-2ffa-43fa-b355-8d6d25ca2a2f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\preview">
-      <UniqueIdentifier>{c53fb6be-b4a1-4eaf-868f-72b0f2f2381a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\colourpicker">
-      <UniqueIdentifier>{84e65e6e-09fc-4c9f-935e-fecabd2829e0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\tasks">
-      <UniqueIdentifier>{bf5f06c3-db93-4fc3-8ec2-d3cce0db56ec}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\profile">
-      <UniqueIdentifier>{dc343cce-9989-421b-8aa6-4c924cca5221}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\client\http">
-      <UniqueIdentifier>{840d64d3-c707-4690-bb7c-51befcd2ccde}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\render">
-      <UniqueIdentifier>{cbeaeda9-7006-4a53-8e62-e8b8986d7c0b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\elementsearch">
-      <UniqueIdentifier>{4d26ca36-59fb-442b-9be0-f48f26c8dcf7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\json">
-      <UniqueIdentifier>{93a03e87-b180-4301-a6f9-6091c5939885}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\localbrowser">
-      <UniqueIdentifier>{dbffd108-9b4a-4cf8-a94f-f65ef46150a8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\save">
-      <UniqueIdentifier>{f7cb1020-81e3-4d7f-8629-19ccaa2032bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\login">
-      <UniqueIdentifier>{8ee04d84-1be6-4360-9816-7d560512c176}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\dialogues">
-      <UniqueIdentifier>{e767c73e-5795-480f-a869-c21eed9109bd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\lua\socket">
-      <UniqueIdentifier>{53c850c8-3c80-479f-bde5-19689eee242d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui">
-      <UniqueIdentifier>{f079f092-6da4-4637-8c14-0bff31ff1664}</UniqueIdentifier>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{76db4a76-ddb3-4053-ad05-1302df1a4162}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\gui\interface">
-      <UniqueIdentifier>{cda0811c-024b-48f9-89d7-547ce7c9a1a7}</UniqueIdentifier>
+      <UniqueIdentifier>{5e6c56b8-cba3-449b-b2e4-24f99d933a7e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\lua">
-      <UniqueIdentifier>{6a7397b5-a28d-40be-9129-d475046a7c02}</UniqueIdentifier>
+    <Filter Include="src\client\http">
+      <UniqueIdentifier>{de127dcd-13b4-48ad-9d36-5c4d18bd9f80}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\graphics">
-      <UniqueIdentifier>{ad1f7f49-6afe-4859-83e6-057467e3b949}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\simulation">
-      <UniqueIdentifier>{69e4b466-26a1-425e-a4df-4c5a969c5768}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\filebrowser">
-      <UniqueIdentifier>{139ebace-b208-4157-afca-e031debc7b16}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{c07da372-222a-46b4-90c8-53d855e177a9}</UniqueIdentifier>
+    <Filter Include="src\gui\elementsearch">
+      <UniqueIdentifier>{a5e7d065-e166-4fbc-a0dd-ddc696a62266}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\gui\update">
-      <UniqueIdentifier>{956b5e9e-426a-4ae2-9d13-2e8a217143ce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\options">
-      <UniqueIdentifier>{d63c72bd-9138-4393-9025-d99b77c4ce82}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\debug">
-      <UniqueIdentifier>{5ee8afef-8c47-4367-9fdb-23aed4d12e2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\console">
-      <UniqueIdentifier>{f1f776c6-3c4d-44ca-be04-207c9264dd94}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\common">
-      <UniqueIdentifier>{0a06d88e-7b90-4d36-9e8b-c9db2fe93561}</UniqueIdentifier>
+      <UniqueIdentifier>{6f4ad24a-0d63-453e-94a2-46378b197dcb}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\client">
-      <UniqueIdentifier>{88ee2499-2819-452a-a0c8-d55deab3810f}</UniqueIdentifier>
+      <UniqueIdentifier>{7143e839-219b-45bd-be82-1d2a40e1ebc5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\powdertoyjava">
-      <UniqueIdentifier>{6a47d3c4-31c2-4ca3-81b4-237d285384b6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\gui\tags">
-      <UniqueIdentifier>{4c0eb3ed-6eaf-4796-8535-2a4b0235e0df}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\bson">
-      <UniqueIdentifier>{f3ae0ce9-ace9-4bea-9b49-b46a982bcc3d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\lua\luascripts">
-      <UniqueIdentifier>{a0a50139-ad50-4091-bc78-4ffd74dafb76}</UniqueIdentifier>
+    <Filter Include="src\resampler">
+      <UniqueIdentifier>{232d380c-a523-4ab5-a28f-cc4f9c0c20fd}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\gui\search">
-      <UniqueIdentifier>{18479730-fa4b-48c4-87c6-b25b2e490a4f}</UniqueIdentifier>
+      <UniqueIdentifier>{f960c8a4-b5df-4c6c-97fa-5b1414bf45e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\simulation">
+      <UniqueIdentifier>{7ee3c7e1-e696-4063-8b3e-5e712cc26c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\powdertoyjava">
+      <UniqueIdentifier>{e5d169a5-962f-4780-9bab-0c5a924988bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{06b5a2c7-3d4a-4d40-b9a1-64109cf7f374}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\simulation\simtools">
-      <UniqueIdentifier>{9eb56775-779f-45c1-b774-3076b576a7a1}</UniqueIdentifier>
+      <UniqueIdentifier>{34ddcfb5-032f-40eb-99b6-4ea7aae77574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\simulation\elements">
+      <UniqueIdentifier>{be59d7ea-6eef-4ed2-9825-c2bf4c7bc086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\json">
+      <UniqueIdentifier>{a0237fec-86c1-45ef-8e81-003442388f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\debug">
+      <UniqueIdentifier>{a48a0e33-db67-4794-a8a3-c9bf55c08eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\colourpicker">
+      <UniqueIdentifier>{36adb2e2-2c06-4c62-80b3-1c42a81a8e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\login">
+      <UniqueIdentifier>{e15b9f2f-a7a1-4d19-853e-48ad96d94f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{d4d8594b-abcb-4d85-b14d-d4dedfe68036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\socket">
+      <UniqueIdentifier>{34d11c53-d17a-4545-9917-d1ad447f0d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\filebrowser">
+      <UniqueIdentifier>{eb8396c0-9b55-4e28-a9df-7f58b768e95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\profile">
+      <UniqueIdentifier>{5d534cc4-8fa3-446b-aee9-fbfc8c5ace4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\console">
+      <UniqueIdentifier>{aae36f21-e67a-417d-88b0-29c18fe2ba6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\preview">
+      <UniqueIdentifier>{02cce821-18d1-4ac4-a8db-b9b3eaacd82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\font">
+      <UniqueIdentifier>{585d8d25-1289-4d87-b41e-70a984b5a486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\render">
+      <UniqueIdentifier>{43864fae-f68b-485f-aaf6-a5e052db530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\save">
+      <UniqueIdentifier>{3ff4bcbd-6b21-443c-8cf2-b30e957e7142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1c749305-a143-4d10-b854-8df91342d8ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tasks">
+      <UniqueIdentifier>{67cc5b63-441f-4b05-8e6f-07221fa0c7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{d43ea44d-bdae-4854-9925-10bebd1995ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bson">
+      <UniqueIdentifier>{e569f0b6-5c49-49f3-b774-ec1d7c8cd74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\luascripts">
+      <UniqueIdentifier>{2b43be7a-4906-4b61-b370-107b49eddbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\dialogues">
+      <UniqueIdentifier>{04b94bd4-43a2-49b0-8950-33829f964df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\tags">
+      <UniqueIdentifier>{d96faccb-9be9-4674-94eb-535e6a78eda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\game">
+      <UniqueIdentifier>{43ea42c0-68d2-4812-898f-4f28fd0d1e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\localbrowser">
+      <UniqueIdentifier>{05924aed-f488-49f8-9d24-aea9e0c11777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\options">
+      <UniqueIdentifier>{407bd6e2-e65f-445b-a7b8-828de49710e6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1241,6 +1241,9 @@
     <ClCompile Include="src\simulation\elements\UREA.cpp">
       <Filter>src\simulation\elements</Filter>
     </ClCompile>
+    <ClCompile Include="src\simulation\elements\UV.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
     <ClCompile Include="src\simulation\elements\VIBR.cpp">
       <Filter>src\simulation\elements</Filter>
     </ClCompile>
@@ -1290,6 +1293,9 @@
       <Filter>src\simulation\elements</Filter>
     </ClCompile>
     <ClCompile Include="src\simulation\elements\WTRV.cpp">
+      <Filter>src\simulation\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simulation\elements\XRAY.cpp">
       <Filter>src\simulation\elements</Filter>
     </ClCompile>
     <ClCompile Include="src\simulation\elements\YEST.cpp">

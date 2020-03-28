@@ -16,8 +16,8 @@ build*/*
 stamps/*
 Saves/*
 scripts/*
-includes/*
 generated/*
+includes/*
 recordings/
 font/*
 generate
@@ -56,8 +56,6 @@ Makefile.me
 *.layout
 *.config
 *.creator*
-*.cflags
-*.cxxflags
 *.files
 *.includes
 config.log
